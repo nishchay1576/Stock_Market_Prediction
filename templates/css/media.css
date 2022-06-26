@@ -1,0 +1,185 @@
+
+/*MEDIA QUERY FOR IPAD PRO & DESKTOP SITES*/
+@media only screen and (min-width:980px) and (max-width:1279px)
+{
+  .about {
+    height: 50vh;
+    margin-top: 100px;
+}
+
+.profile-image img {
+  width: 408px;
+  margin-top: 50px;
+  margin-right: -55px;
+}
+
+.main-info-section {
+  height: calc(41vh - 81.6px);
+}
+.skills {
+  height: 40vh;
+}
+.contact {
+  margin-top: 81px;
+}
+}
+
+
+/*MEDIA QUERY FOR IPAD*/
+@media only screen and (min-width:420px) and (max-width:979px)
+{
+  .container {
+    padding: 0px 12px 19px;
+    margin-right: 0px;
+
+}
+.main-info-section {
+  height: calc(50vh - 81.6px);
+}
+
+.about{
+  height:68vh;
+}
+.skills img {
+  left: calc(100% - 61px);
+}
+.about img {
+  left: calc(100% - 61px);
+}
+.skills {
+  height: 56vh;
+}
+div[class^='category-'] {
+    margin-bottom: 11px;
+  
+}
+
+.container {
+  padding: 0px 12px 19px;
+  margin-right: -128px;
+  
+}
+
+li {
+list-style: none;
+margin-left: 37px;
+padding: 19px;
+}
+.text {
+margin-top: 19px;
+}
+
+.work-category button {
+
+padding: 20px 33px;
+border-radius: 50px;
+
+font-size: 1.5rem;
+letter-spacing: 1px;
+
+}
+
+button, input, select, textarea {
+font: inherit;
+margin: 24px;
+}
+
+.contact h1 {
+text-align: left;
+font-size: 9rem;
+z-index: 0;
+opacity: .1;
+}
+
+footer hr {
+border: 2px solid #707070;
+margin-top: 7px;
+margin-right: -128px;
+}
+
+footer p {
+text-align: right;
+color: #707070;
+font-size: 1.5rem;
+padding: 14px 0;
+}
+}
+
+
+
+/*MEDIA QUERY FOR PHONE */
+@media only screen and (max-width:419px)
+{
+.container {
+    padding: 0px 12px 19px;
+    margin-right: -128px;
+    
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 0;
+  padding-bottom: 0px;
+}
+li {
+  list-style: none;
+  margin-left: 41px;
+  padding: 19px;
+}
+.text {
+  margin-top: 19px;
+}
+
+.text h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  cursor: context-menu;
+}
+
+.skills {
+  height: 68vh;
+}
+
+.work-category button {
+
+  padding: 20px 33px;
+  border-radius: 50px;
+ 
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  
+}
+
+button, input, select, textarea {
+  font: inherit;
+  margin: 24px;
+}
+
+.contact h1 {
+  text-align: left;
+  font-size: 9rem;
+  z-index: 0;
+  opacity: .1;
+}
+.profile-image img {
+  width: 408px;
+  margin-top: 50px;
+  margin-right: -55px;
+  margin-left: 43px;
+}
+footer hr {
+  border: 2px solid #707070;
+  margin-top: 7px;
+  margin-right: -128px;
+}
+
+footer p {
+  text-align: right;
+  color: #707070;
+  font-size: 1.5rem;
+  padding: 14px 0;
+}
+}
+
